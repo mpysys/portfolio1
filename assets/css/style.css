@@ -74,7 +74,7 @@ h1, h2 {
 
 
 /* main image  */
-#hero-outer {
+#main-image-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -86,10 +86,10 @@ h1, h2 {
     color: #fff
 }
 
-#hero-image {
-    height: 800px;
-    width: auto;
-    background: url(../images/dog_food.jpg) no-repeat center center;
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/main_image_dog.jpg) no-repeat center center;
     background-size: auto;
 
   /* animate zoom effect on loading page */
@@ -134,6 +134,121 @@ h1, h2 {
     letter-spacing: 2px;
     padding-top: 30px;
 }
+
+/* how it works  */
+
+#mainpage-title{
+    font-size: 200%;
+    font-family: lato, sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #6B1704
+}
+
+#main-steps {
+    height: 600px;
+}
+
+#different-steps {
+    margin-top: 50px;
+}
+
+.left-step {
+    width: 33%;
+    float: left;
+    line-height: 20px;
+    margin-bottom: 50px;
+
+    font-size: 75%;
+
+    letter-spacing: 4px;
+    
+    width: 300px;
+    height: 150px;
+    
+    padding: 10px;
+    margin-left: 50px;
+    background-color: rgba(212, 188, 154, 1);
+}
+
+.right-step {
+    width: 33%;
+    float: right;
+    line-height: 20px;
+    margin-bottom: 50px;
+
+    font-size: 75%;
+
+    letter-spacing: 4px;
+    
+    width: 300px;
+    height: 150px;
+    
+    padding: 10px;
+    margin-right: 50px;
+    background-color: rgba(212, 188, 154, 1);
+}
+}
+
+.center-step {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.left-step h2 {
+    font-family: lato, sans-serif;
+    color: #6B1704;
+}
+
+.right-step h2 {
+    text-align: left;
+    color: #6B1704;
+}
+
+.center-step h2 {
+    text-align: center;
+    color: #6B1704;
+}
+
+.left-step p {
+    color:#8C614B;
+    font-family: roboto, sans-serif;
+    padding-top: 15px;    
+}
+
+.right-step p {
+    color:#8C614B;
+    padding-top: 15px;
+    width: 50%;
+}
+
+.center-step p {
+    color:#8C614B;
+    padding-top: 25px;
+    width: 50%;
+    margin-left: 75px;
+
+}
+/* 
+#left-step-text {
+    font-size: 130%;
+    font-family: lato, sans-serif;
+    letter-spacing: 4px;
+    
+    width: 300px;
+    height: 150px;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(95, 15, 2, .7);
+
+    bottom: 100px;
+    right: 75px;
+
+} */
+
+
 /* footer  */
 
 footer {
