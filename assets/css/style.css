@@ -89,8 +89,8 @@ h1, h2 {
 #main-image {
     height: 600px;
     width: 100%;
-    background: url(../images/main_image_dog.jpg) no-repeat center center;
-    background-size: auto;
+    background: url(../images/feed_dog.jpg) no-repeat center center;
+
 
   /* animate zoom effect on loading page */
   animation-name: hero-zoom;
@@ -135,19 +135,24 @@ h1, h2 {
     padding-top: 30px;
 }
 
-/* how it works  */
+/* Meal section */
+
+
+
+/* how it works section */
 
 #mainpage-title{
     font-size: 200%;
     font-family: lato, sans-serif;
-    margin-top: 100px;
+    padding-top: 50px;
     text-align: center;
     text-transform: uppercase;
     color: #6B1704
 }
 
 #main-steps {
-    height: 600px;
+    height: 300px;
+    background-color: #FBEBD5;
 }
 
 #different-steps {
@@ -164,11 +169,11 @@ h1, h2 {
 
     letter-spacing: 4px;
     
-    width: 300px;
-    height: 150px;
+    width: 330px;
+    height: 100px;
     
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 100px;
     background-color: rgba(212, 188, 154, 1);
 }
 
@@ -182,18 +187,26 @@ h1, h2 {
 
     letter-spacing: 4px;
     
-    width: 300px;
-    height: 150px;
+    width: 330px;
+    height: 100px;
     
     padding: 10px;
-    margin-right: 50px;
+    margin-right: 100px;
     background-color: rgba(212, 188, 154, 1);
 }
-}
+
 
 .center-step {
-    width: 33%;
+    font-size: 75%;
+    line-height: 20px;
+    letter-spacing: 4px;
+
+    width: 330px;
+    height: 100px;
+
+    padding: 10px;
     margin: 0 auto;
+    background-color: rgba(212, 188, 154, 1);
 }
 
 .left-step h2 {
@@ -219,15 +232,14 @@ h1, h2 {
 
 .right-step p {
     color:#8C614B;
-    padding-top: 15px;
-    width: 50%;
+    font-family: roboto, sans-serif;
+    padding-top: 15px;    
 }
 
 .center-step p {
     color:#8C614B;
-    padding-top: 25px;
-    width: 50%;
-    margin-left: 75px;
+    font-family: roboto, sans-serif;
+    padding-top: 15px;    
 
 }
 /* 
