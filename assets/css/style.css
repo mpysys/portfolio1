@@ -87,11 +87,10 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 600px;
-    width: 100%;
+    height: 800px;
+    width: auto;
     background: url(../images/dog_food.jpg) no-repeat center center;
-    background-size: fill;
-    float: left;
+    background-size: auto;
 
   /* animate zoom effect on loading page */
   animation-name: hero-zoom;
@@ -105,27 +104,35 @@ h1, h2 {
         transform: scale(1);
     }
     to {
-        transform: scale(1.1);
+        transform: scale(1.15);
     }
 }
 
 #cover-text {
     font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
+    font-family: lato, sans-serif;
     letter-spacing: 4px;
     
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 150px;
     
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(95, 15, 2, .7);
 
-    bottom: 30px;
-    right: 150px;
+    bottom: 0px;
+    left: 75px;
 
     position: absolute;
+}
+
+
+
+#cover-text > p {
+    font-size: 75%;
+    font-family: roboto, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 30px;
 }
 /* footer  */
 
