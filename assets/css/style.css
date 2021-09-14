@@ -90,6 +90,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url(../images/feed_dog.jpg) no-repeat center center;
+    background-size: cover;
 
 
   /* animate zoom effect on loading page */
@@ -137,14 +138,6 @@ h1, h2 {
 
 /* Meal section */
 
-/* #meal-container {
-    height: 600px;
-    background-color: #FBEBD5;
-} */
-
-#center-meal {
-
-}
 
 #meal-container {
     padding-top: 50px;
@@ -190,18 +183,20 @@ h1, h2 {
 #main-steps {
     height: 300px;
     background-color: #D4BC9A;
+    overflow: hidden;
 }
 
 #different-steps {
     margin-top: 50px;
 }
 
-.left-step {
+#left-step {
     width: 33%;
     float: left;
     line-height: 20px;
     margin-bottom: 50px;
 
+    border: 2px solid #FBEBD5;
     font-size: 75%;
 
     letter-spacing: 4px;
@@ -214,12 +209,13 @@ h1, h2 {
     background-color: rgba(212, 188, 154, 1);
 }
 
-.right-step {
+#right-step {
     width: 33%;
     float: right;
     line-height: 20px;
     margin-bottom: 50px;
-
+    
+    border: 2px solid #FBEBD5;
     font-size: 75%;
 
     letter-spacing: 4px;
@@ -233,50 +229,56 @@ h1, h2 {
 }
 
 
-.center-step {
+#center-step {
     font-size: 75%;
     line-height: 20px;
     letter-spacing: 4px;
 
     width: 330px;
     height: 100px;
+    border: 2px solid #FBEBD5;
 
     padding: 10px;
     margin: 0 auto;
     background-color: rgba(212, 188, 154, 1);
 }
 
-.left-step h2 {
+#left-step h2 {
     font-family: lato, sans-serif;
     color: #6B1704;
 }
 
-.right-step h2 {
+#right-step h2 {
     text-align: left;
+    font-family: lato, sans-serif;
     color: #6B1704;
 }
 
-.center-step h2 {
+#center-step h2 {
     text-align: center;
+    font-family: lato, sans-serif;
     color: #6B1704;
 }
 
-.left-step p {
+#left-step p {
     color:#8C614B;
     font-family: roboto, sans-serif;
-    padding-top: 15px;    
+    padding-top: 10px;    
+    font-size: 125%;
 }
 
-.right-step p {
+#right-step p {
     color:#8C614B;
     font-family: roboto, sans-serif;
-    padding-top: 15px;    
+    padding-top: 10px;   
+    font-size: 125%; 
 }
 
-.center-step p {
+#center-step p {
     color:#8C614B;
     font-family: roboto, sans-serif;
-    padding-top: 15px;    
+    padding-top: 10px;   
+    font-size: 125%; 
 
 }
 /* 
